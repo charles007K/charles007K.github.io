@@ -181,6 +181,7 @@ p {
 .content {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
   justify-content: space-between;
 }
 
