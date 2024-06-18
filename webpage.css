@@ -1,0 +1,256 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 1400px;/*控制全局宽度*/
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+.header {
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+}
+.header h1 {
+  margin: 0;
+}
+.header p {
+  margin: 5px 0 0;
+  
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px; 
+  margin-top: -20px; 
+  margin-bottom: 20px; 
+  box-shadow: 10px 10px 3px gray;
+}
+
+.profile img {
+  border-radius: 50%; 
+  margin-bottom: 10px;
+  width: 240px;
+  height: 320px;
+  
+}
+.profile p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 0;
+  font-size: large;
+  text-indent: 2em;
+  justify-content: space-around;
+
+}
+
+.profile ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 0;
+  list-style-type: none;   /*list去掉项目符号*/
+
+}
+
+.profile li {
+  color: white;
+  margin-right: 2em;
+}
+
+.profile h1 {
+  text-align: right;
+  font-size: 3em;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+#c-img {
+  border-radius: 0; 
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  vertical-align: middle   /*用来对齐SVG和文字 */
+}
+
+li{
+  line-height: 2;
+}
+
+i {
+  color: gray;
+
+}
+p {
+  line-height: 1.5;
+}
+.p-right{
+  float: right;
+  margin-right: 3em;
+}
+.p-left{
+  float: left;
+  margin-left: 3em;
+}
+.skill {
+  display: flex;
+  flex-direction: column; /*定义方向 垂直或者水平*/
+  margin-bottom: 1em;
+}
+
+.skill ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; /*允许在小屏幕换行*/
+  color: black;
+  margin-bottom: 0;
+  margin-top: -2em;
+  padding: 2em;
+  list-style-type: none;   /*list去掉项目符号*/
+}
+
+.skill li {
+  color: black;
+  margin-right: 2em;
+}
+
+.skill-bar {
+  background-color: rgb(35, 214, 250);
+  color: rgb(251, 250, 250);
+  text-align:right;
+  border-radius: 15px;
+  height: 18px;
+  width: 75%;
+  margin-left: 3em;
+}
+.skill-a {
+  width: 80%;
+  background-color: brown;
+  border-radius: 15px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.skill-b {
+  width: 90%;
+  background-color: brown;
+  border-radius: 15px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+.skill-c {
+  width: 90%;
+  background-color: brown;
+  border-radius: 15px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+.skill-d {
+  width: 75%;
+  background-color: brown;
+  border-radius: 15px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+.skill-f {
+  width: 100%;
+  background-color: brown;
+  border-radius: 15px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content  p {
+  text-indent: 2em;
+
+}
+.column {
+  flex: 0 0 49%;
+  background-color: rgb(246, 253, 255);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: auto;
+}
+.column h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom:5px double;
+}
+.column h3 {
+  color: #2c3e50;
+}
+.column img {
+  width: 1em;;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+#pie-page {
+  background-color: rgb(245, 253, 255);
+  color: rgb(245, 253, 255);
+  margin-left: -2em;
+  width: 500px;
+  height: 500px;
+}
+#motto {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  font-family:"Playwrite AU VIC", cursive;
+}
+
+#book {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+#book img {
+  width: 200px;
+  height: 200px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .column {
+      flex: 0 0 48%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .column {
+      flex: 0 0 100%;
+  }
+}
