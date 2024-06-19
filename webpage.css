@@ -181,15 +181,15 @@ p {
 .content {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  width: auto;
+  justify-content: center;
 }
 
 .content  p {
   text-indent: 2em;
-
 }
 .column {
-  flex: 0 0 100%;
+  flex: 0 0 100;
   background-color: rgb(246, 253, 255);
   margin-bottom: 10px;
   padding: 15px;
@@ -244,7 +244,7 @@ p {
   color: white;
   margin-top: 20px;
 }
-@media screen and (mini-width: 768px) {
+@media screen and (min-width: 768px) {
   .column {
       flex: 0 0 49%;
   }
