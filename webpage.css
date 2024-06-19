@@ -229,7 +229,7 @@ p {
 #book {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-bottom: 0;
 }
 #book img {
