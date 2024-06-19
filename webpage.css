@@ -249,7 +249,7 @@ p {
       flex: 0 0 49%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1170px) {
   .column {
       flex: 0 0 100%;
   }
